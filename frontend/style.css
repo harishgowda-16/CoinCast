@@ -1,0 +1,130 @@
+body {
+    margin: 0;
+    background:#f1f5fb;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.title {
+    text-align:center;
+    padding:25px 10px;
+    font-size:28px;
+    font-weight:700;
+}
+
+.prediction-card {
+    width: 90%;
+    max-width: 850px;
+    margin: 10px auto 25px;
+    background: white;
+    border-radius: 18px;
+    padding: 25px;
+    box-shadow:0 4px 16px rgba(0,0,0,0.1);
+    text-align:center;
+}
+
+.section-title {
+    font-size:22px;
+    margin-bottom:20px;
+}
+
+.predict-controls {
+    display:flex;
+    justify-content:center;
+    gap:15px;
+    margin-bottom:15px;
+}
+
+.dropdown {
+    padding:10px 18px;
+    border-radius:25px;
+    font-size:16px;
+    border:2px solid #34a853;
+}
+
+.predict-btn {
+    padding:10px 22px;
+    border:none;
+    font-size:16px;
+    border-radius:25px;
+    background:#34a853;
+    color:white;
+    cursor:pointer;
+    font-weight:600;
+}
+
+.predict-btn:hover {
+    background:#0f7a33;
+}
+
+#prediction-result {
+    margin-top:15px;
+    font-size:18px;
+    font-weight:700;
+    color:#1b7b1b;
+}
+
+/* Chart container */
+.chart-container {
+    width:100%;
+    margin-top:25px;
+}
+
+/* TABLE */
+.table-container {
+    width:95%;
+    max-width:1000px;
+    margin:10px auto;
+    background:white;
+    border-radius:12px;
+    padding:12px;
+    box-shadow:0 4px 15px rgba(0,0,0,0.1);
+}
+
+table {
+    width:100%;
+    border-collapse:collapse;
+}
+
+th, td {
+    padding:12px 15px;
+    border-bottom:1px solid #e4e4e4;
+    text-align:left;
+}
+
+th {
+    background:#f7f9fc;
+    font-size:15px;
+}
+
+.crypto-img {
+    width:28px;
+    height:28px;
+    border-radius:50%;
+    vertical-align:middle;
+    margin-right:8px;
+}
+
+.green { color:#0f9d58; }
+.red { color:#db4437; }
+
+/* Pagination */
+#pagination {
+    margin:20px 0;
+    display:flex;
+    justify-content:center;
+    gap:10px;
+}
+
+#pagination button {
+    padding:8px 16px;
+    border:none;
+    border-radius:25px;
+    background:#34a853;
+    color:white;
+    cursor:pointer;
+    font-weight:600;
+}
+
+#pagination button:hover {
+    background:#0f7a33;
+}

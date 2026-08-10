@@ -1,0 +1,40 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# IDE/project settings
+.vscode/
+*.suo
+*.user
+*.userosscache
+*.sln
+*.csproj
+
+# Logs
+*.log
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# Packages
+*.egg-info/
+*.egg
+
+# Backup files
+*.bak
+*.tmp
+
+# Model files if you want to avoid pushing large binaries
+# Comment these if you intend to keep model files in repo.
+# backend/models/*.h5
+# backend/models/*.pkl
+# backend/models/*.save

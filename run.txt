@@ -1,0 +1,12 @@
+# === Start Backend ===
+cd backend
+python train_lstm.py
+python train_xgb.py
+python app.py &  # Run Flask server in background
+
+# === Start Frontend ===
+cd ../frontend
+python -m http.server 8000 &  # Run frontend server in background
+
+# === Open in Browser ===
+open http://localhost:8000/index.html
