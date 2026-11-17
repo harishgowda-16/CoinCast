@@ -134,8 +134,8 @@ You’re free to use, modify, and distribute this project with attribution.
 ---
 
 👨‍💻 Author
-Maadhu Avati
-📧 maadhuavati7@gmail.com
+Harish Gowda S
+📧 harishgowdasuresh@gmail.com
 📊 GitHub Profile
 
 
